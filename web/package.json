@@ -1,0 +1,26 @@
+{
+	"name": "web",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"start": "vite preview --host"
+	},
+	"dependencies": {
+		"@pdf-lib/fontkit": "^1.1.1",
+		"pdf-lib": "^1.17.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.0.15",
+		"@types/prop-types": "^15.7.14",
+		"@types/react": "^18.2.66",
+		"@types/react-dom": "^18.2.22",
+		"@vitejs/plugin-react-swc": "^3.8.1",
+		"tailwindcss": "^4.0.15",
+		"typescript": "^5.4.5",
+		"vite": "^6.2.3"
+	}
+}

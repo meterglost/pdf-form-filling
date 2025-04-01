@@ -1,0 +1,4 @@
+*           text=auto eol=lf
+
+test/*.doc  linguist-vendored
+test/*.typ  linguist-vendored

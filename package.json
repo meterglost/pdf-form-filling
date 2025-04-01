@@ -1,0 +1,25 @@
+{
+	"name": "pdf-form-filling",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"api:dev": "cd api && npm run dev",
+		"web:dev": "cd web && npm run dev",
+
+		"api": "cd api && npm start",
+		"web": "cd web && npm start",
+
+		"lint": "biome check .",
+		"format": "prettier --check ."
+	},
+	"dependencies": {
+		"api": "file:api",
+		"web": "file:web"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.13.14",
+		"prettier": "3.2.5",
+		"typescript": "^5.4.5"
+	}
+}
